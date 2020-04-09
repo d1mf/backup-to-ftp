@@ -18,9 +18,9 @@
 #
 
 # FTP server settings
+SERVER=
 USERNAME=
 PASSWORD=
-SERVER=
 PORT=21
 
 # Remote server directory to upload backup
