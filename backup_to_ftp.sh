@@ -58,8 +58,8 @@ backup_remote_file_name="$timestamp.tar.gz"
 backup_file="$TEMP_BACKUP_STORE/$backup_remote_file_name"
 
 # work out our cutoff date
-MM=`date --date="$ndays days ago" +%b+%H`
-DD=`date --date="$ndays days ago" +%d+%H`
+MM=`date --date="$ndays days ago" +%b`
+DD=`date --date="$ndays days ago" +%d`
 
 
 
