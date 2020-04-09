@@ -52,7 +52,7 @@ AES_PASSWORD_FILE=""
 # END CONFIGURATION
 # Script below, no need to modify it
 
-timestamp=$(date --iso)
+timestamp=$(date --iso-8601=hours)
 
 backup_remote_file_name="$timestamp.tar.gz"
 backup_file="$TEMP_BACKUP_STORE/$backup_remote_file_name"
