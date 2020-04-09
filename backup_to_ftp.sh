@@ -27,7 +27,7 @@ PORT=21
 BACKUPDIR="/"
 
 # Backups older than ndays will be removed
-ndays=1
+ndays=2
 
 # The absolute local directory to pickup *.tar.gz file
 # Please do not end the path with a forward slash.
